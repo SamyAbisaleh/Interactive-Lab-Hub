@@ -5,7 +5,7 @@
 
 A) [Set up a breadboard](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-a-set-up-bread-board)
 
-B) Manually blink a LED
+B) [Manually blink a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-b-manually-blink-an-led)
 
 C) Blink a LED using the Arduino
 
