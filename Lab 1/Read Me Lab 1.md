@@ -14,7 +14,7 @@ D) Manually fade a LED
 E) Fade a LED using Arduino
 
 ### Part A. Set Up Bread Board
-<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Breadboard.jpg" width="500">
+<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Breadboard.jpg" width="200" height="300">
 
 
 
