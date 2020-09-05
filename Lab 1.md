@@ -19,9 +19,9 @@ E) Fade a LED using Arduino
 
 ### Part B. Manually Blink an LED
 #### a. What color stripes are on a 220 Ohm Resistor?
-*A 5 stripe resistor has stripes colored as Red, Red, Black Black, Brown. This provides a resistor of 220 Ohms with a 1% Tolerance
+* A 5 stripe resistor has stripes colored as Red, Red, Black Black, Brown. This provides a resistor of 220 Ohms with a 1% Tolerance
 
 #### b. What do you have to do to light your LED?
-*Pressing the button allows the LED to light. 
+* Pressing the button allows the LED to light. 
 
 
