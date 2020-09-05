@@ -1,4 +1,4 @@
-#Alt Lab 1. Arduino Deep Dive
-##Part 1
+# Alt Lab 1. Arduino Deep Dive
+## Part 1
 ## Light it Up
-###Overview
+### Overview
