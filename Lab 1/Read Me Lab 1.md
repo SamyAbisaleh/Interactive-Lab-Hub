@@ -3,7 +3,7 @@
 ## Light it Up
 ### Overview
 
-A) Set up a breadboard
+A) [Set up a breadboard](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-a-set-up-bread-board)
 
 B) Manually blink a LED
 
