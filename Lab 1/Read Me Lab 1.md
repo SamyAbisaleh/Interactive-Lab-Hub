@@ -16,8 +16,6 @@ E) Fade a LED using Arduino
 ### Part A. Set Up Bread Board
 <img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Breadboard.jpg" width="200" height="300">
 
-
-
 ### Part B. Manually Blink an LED
 #### a. What color stripes are on a 220 Ohm Resistor?
 * A 5 stripe resistor has stripes colored as Red, Red, Black Black, Brown. This provides a resistor of 220 Ohms with a 1% Tolerance
@@ -40,5 +38,22 @@ E) Fade a LED using Arduino
 * At a delay of about 13 ms between on and off the LED can no longer be percieved as blinking. I was able to prove it to myself by using an iPhone in slow motion mode to see the light turn on and off. Furthermore, after googling it I read that a study determined that the human eye can see between 13-14 milliseconds on average.
 
 ##### e. Save your new blink code to your lab 1 repository, with a link on the Lab report wiki page.
-LINK
+* [LINK TO BLINK CODE](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Blink.ino)
+
+#### 2. Blink your LED
+VIDEO
+
+### Part D. Manually fade a LED
+#### a. a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?
+* I was not able to get the LED to glow during the entire range of the Potentiometer. The reason for this is that as the potentiometer began to have more and more resistance the amount of current flow became to little for the light to be seen. My range of motion was about half with the light and half without.
+
+### Part E. Fade a LED using Arduino 
+#### a. What do you have to modify to make the code control the circuit you've built on your breadboard?
+* To control the circuit there are multiple different things I can control. The first is the fade amount. If I increase or decrease the fade amount the speed of which the light changes brightness becomes faster. The second is the delay. If I change the delay the speed of which the light changes also becomes faster or slower. 
+
+#### b. What is analogWrite()? How is that different than digitalWrite()?
+* digitalWrite() only allows the pin to be set to either a high or low value. analogWrite() allows the pin to have a duty cycle. In other words the pin is rapidly changing the amount of high or low it has. These numbers are between 0 and 255. If duty cycle is higher, then the light is at a higher brightness. If it is lower the light is at a lower brightness. A better way to think about duty cycle is the average on and off and how that correlates to brightness. 
+
+
+
 
