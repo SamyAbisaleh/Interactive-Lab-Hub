@@ -41,7 +41,7 @@ E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hu
 * [LINK TO BLINK CODE](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Blink.ino)
 
 #### 2. Blink your LED
-VIDEO
+<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/blink.gif">
 
 ### Part D. Manually fade a LED
 #### a. a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?
