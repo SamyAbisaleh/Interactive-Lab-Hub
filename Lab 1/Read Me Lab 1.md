@@ -7,11 +7,11 @@ A) [Set up a breadboard](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blo
 
 B) [Manually blink a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-b-manually-blink-an-led)
 
-C) Blink a LED using the Arduino
+C) [Blink a LED using the Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-c-blink-an-led-using-arduino)
 
-D) Manually fade a LED
+D) [Manually fade a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-d-manually-fade-a-led)
 
-E) Fade a LED using Arduino
+E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Read%20Me%20Lab%201.md#part-e-fade-a-led-using-arduino)
 
 ### Part A. Set Up Bread Board
 <img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Breadboard.jpg" width="200" height="300">
