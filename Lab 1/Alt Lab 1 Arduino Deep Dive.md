@@ -64,4 +64,7 @@ E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hu
 # Part 2
 # Make a Digital Timer
 ## Overview
+## Part A. Solder your OLED
+### Modify Example Code:
+
 
