@@ -67,7 +67,7 @@ E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hu
 
 A) [Solder your OLED Display](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-a-solder-your-oled)
 
-B) [Make a lowly Multimeter](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-b-make-a-lowly-multimeter)
+B) [Make a lowly Multimeter](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-b-make-a-lowly-multimeter)
 
 C) [Using a time based Digital Sensor!](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-c-usin-a-time-based-digital-sensor)
 
