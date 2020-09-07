@@ -2,4 +2,4 @@
 
 Completed Labs for Samy Abisaleh -- Student
 
-1. [Samy A's Lab 1](//github.com/johnqstudent/idd-fa18-lab1)
+1. [Samy A's Lab 1](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/tree/master/Lab%201)
