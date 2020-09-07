@@ -75,7 +75,7 @@ D) [Manually fade a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blo
 
 ## Part A. Solder your OLED
 ### Modify Example Code:
-'''C++
+'''c++
 /**************************************************************************
  This is an example for our Monochrome OLEDs based on SSD1306 drivers
 
