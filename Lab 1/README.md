@@ -2,15 +2,15 @@
 # Light it Up
 ## Overview
 
-A) [Set up a breadboard](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-a-set-up-bread-board)
+A) [Set up a breadboard](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-a-set-up-bread-board)
 
-B) [Manually blink a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-b-manually-blink-an-led)
+B) [Manually blink a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201REARME.md#part-b-manually-blink-an-led)
 
-C) [Blink a LED using the Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-c-blink-an-led-using-arduino)
+C) [Blink a LED using the Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-c-blink-an-led-using-arduino)
 
-D) [Manually fade a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-d-manually-fade-a-led)
+D) [Manually fade a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-d-manually-fade-a-led)
 
-E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-e-fade-a-led-using-arduino)
+E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-e-fade-a-led-using-arduino)
 
 
 ## Part A. Set Up Bread Board
@@ -65,15 +65,15 @@ E) [Fade a LED using Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hu
 # Make a Digital Timer
 ## Overview
 
-A) [Solder your OLED Display](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-a-solder-your-oled)
+A) [Solder your OLED Display](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-a-solder-your-oled)
 
-B) [Make a lowly Multimeter](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-b-make-a-lowly-multimeter)
+B) [Make a lowly Multimeter](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-b-make-a-lowly-multimeter)
 
-C) [Using a time based Digital Sensor!](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-c-usin-a-time-based-digital-sensor)
+C) [Using a time based Digital Sensor!](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-c-usin-a-time-based-digital-sensor)
 
-D) [Make your Arduino Sing](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-d-make-your-arduino-sing)
+D) [Make your Arduino Sing](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-d-make-your-arduino-sing)
 
-E). [Make Your Own Timer](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/Alt%20Lab%201%20Arduino%20Deep%20Dive.md#part-e-make-your-own-timer)
+E). [Make Your Own Timer](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-e-make-your-own-timer)
 
 ## Part A. Solder your OLED
 ### Modify Example Code:
