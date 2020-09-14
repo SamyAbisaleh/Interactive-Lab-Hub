@@ -21,7 +21,9 @@ E) [Send your board off to be made](#part-e-send-your-board-off-to-be-made)
 Please document the design of your Arduino+:
 
 **a) What is the + improvement of your Arduino+**
-* For my Arduino I added a Temperature Sensor, that can always be acessed and read. ([The part I am using](https://app.ultralibrarian.com/details/1690C20E-103F-11E9-AB3A-0A3560A4CCCC/Texas-Instruments/TMP102AIDRLRG4?ref=digikey))
+In this repo you will find the original files from Adafruit for the Metro Mini and a file I have edited. You can compare the changes to the schematic and the board file to see which changes were made.
+
+I've decided I want to be able to read the temperature from my Metro Mini and have that be a part of the board itself. This requires adding an Temperature Sensor. I am using a surface mount [component](https://app.ultralibrarian.com/details/1690C20E-103F-11E9-AB3A-0A3560A4CCCC/Texas-Instruments/TMP102AIDRLRG4?ref=digikey)
 
 **b) What Arduino form-factor/design are you basing your design off of?**
 * I am using the Arduino Metro Mini. 
