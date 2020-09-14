@@ -4,7 +4,7 @@
 
 A) [Set up a breadboard](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-a-set-up-bread-board)
 
-B) [Manually blink a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201REARME.md#part-b-manually-blink-an-led)
+B) [Manually blink a LED](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-b-manually-blink-an-led)
 
 C) [Blink a LED using the Arduino](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%201/README.md#part-c-blink-an-led-using-arduino)
 
