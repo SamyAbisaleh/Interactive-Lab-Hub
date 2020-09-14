@@ -46,8 +46,6 @@ The schematic I based these decisions off of can be found below.
 
 Develop a bill of materials for your Arduino +.
 
-This is a spreadsheet/table to help you keep tabs on what parts you need to order to populate your board. [Here is an example of a BOM](http://solderpad.com/solderpad/arduino-uno/) for an Arduino Uno, from Solderpad.com. 
-
 **Bill of Materials**
 Use the table below, or just include a link to a spreadsheet or pdf.
 | Part name | Part ID | Part description | # of units | link to data sheet | link to source | Notes |
@@ -66,10 +64,13 @@ Sometimes you're just testing out design constraints. For example, if you are ma
 **Describe key design questions (how big are the parts? what pins need to be connected?) and how you used/will use prototyping to answer them.**
 
 ## Part D. Layout your Arduino+
+* [Metro Mini official open source layout](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/tree/master/Lab%202/Metro%20Mini%20Files/Adafruit-METRO-328-PCB-master/Adafruit-METRO-328-PCB-master)
 
-Use EAGLE, KiCAD, Fritzing or the ECAD program of your choice to layout your Arduino +. The source files for the existing Arduino designs is available from Arduino.cc. For example, [here is the page](https://store.arduino.cc/usa/arduino-uno-rev3) with the open source designs for the Arduino UNO R3. 
+* [Temp Sensor Official Layout](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/tree/master/Lab%202/Temp%20Sensor)
 
-**Document what you files, with enough specificity that anyone else could have the same thing made.**
+* [ My Official Board Layout (On Eagle)](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%202/Metro%20Mini%20Rev%20B.brd)
+
+* [My Official Schematic Layout (On Eagle)](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%202/Metro%20Mini%20Rev%20B.sch)
 
 ## Part E. Send your board off to be made
 
@@ -77,30 +78,11 @@ When you have laid out your board, send it off to be fabricated. You might need 
 
 **Document what you sent, and to where, with enough specificity that anyone else could have the same thing made.**
 
-**In the report, please tell us any pain points you faced in this lab, and how we could make this process easier for future students.**
+## Pain Points
+There were a couple of pain points I had with this assignment
+* The assignment instruction are a bit unclear, as theres a mix of being told to buy and prototype but also not buy and wait to get it checked
+* I don't have any experience using Eagle, and I've never prototyped or designed a board. This was not a huge issue. The issue came when I had to come up with ideas, I wasn't sure what was easy and what was hard, and I didn't have many other ideas to compare them to. 
+* Similar to my lack of experience with Eagle, I thought that the Pre-lab wasn't of much help (in the sense that we are coming up with many different ideas). I think in the future, a potentially better Pre-Lab would be to watch, learn, and do a schematic and board based on a video uploaded to YouTube (basically introduce Eagle). And then have say, 4 options for the designable board: IR sensor, Temp sensor, Built-in LCD, DIY. The last option will allow students with experience to do what they want, and the other 3 will help the TA's not have to help everyone without any knowledge of their parts. (Note: there might be a better way to do this, just an idea)
 
-## Example Project
-
-[In this](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/tree/2020Fall/alt-Lab2) repo you will find the original files from Adafruit for the [Metro Mini](https://github.com/adafruit/Adafruit-METRO-328-PCB) you all have in your kit and a file I have edited.  You can compare the changes to the schematic and the board file to see which changes were made.
-
-
-I've decided I want to be able to control my Metro Mini with a standard television remote control and have that be a part of the board itself. This requires adding an [IR Receiver](https://www.adafruit.com/product/157). For the first version I will use the same through hole product linked. In a future version I may want to use a surface mount component such as [TSOP752](https://www.vishay.com/docs/82494/tsop752.pdf).
-### Getting from the original Metro Mini to the Final Design
-
-1. How are components wired?  
-Looking at the [Data sheet](https://cdn-shop.adafruit.com/datasheets/tsop382.pdf) I can see I need to connect pins `1 = OUT, 2 = GND, 3 = VS`  
-With an Arduino that might look something like ![Arduino wiring](https://cdn-learn.adafruit.com/assets/assets/000/000/555/original/light_arduinopna4602.gif?1447976120)
-2. Open the metro mini schematic file in Eagle. The component we will need to add to our schematic is a 3 pin connector. You can find that in the [Sparkfun Connectors Library](https://www.autodesk.com/products/eagle/blog/library-basics-install-use-sparkfun-adafruit-libraries-autodesk-eagle/). The add part button ![Add part](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/assets/Screen%20Shot%202020-09-08%20at%202.15.36%20PM.png?raw=true) will let you put your part on the schematic. In our case the CONN_03 part in the Sparkfun Connectors library.
-3. Using the net tool we draw a trace from pin 2 to PD2 on our ATMEGA 328P. We add a ground connector by copying and pasting. We draw an unconnected net and name it VCCIO.  
-![connections](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/assets/Screen%20Shot%202020-09-08%20at%202.19.29%20PM.png?raw=true)
-4. Hit the BRD button ![brd button](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/assets/Screen%20Shot%202020-09-08%20at%202.24.11%20PM.png?raw=true) in the top left to see your board file. We need to make routes for all the unconnected airwires. See the final design do see which parts and traces were moved.
-  - the board was made longer by moving the outline in layer 20
-  - The ground planes on the top and bottom were also moved the meet the extended length
-  - Traces were shifted to the right and the reset button was moved
-  - Routes were added for the new component and a few via's to easily route wires.  
-You can see the final design and compare the differences. 
-5. Before getting anything manufactured hit the ULP button, generate BOM. Find a link to every component you will need for your board. [Digikey](https://www.digikey.com/) is a good resource for this.
-
-## Get your schematic, board, BOM and who you think you might order reviewed from BEFORE ordering anything.
-
+* Overall though, although I found the assignment a bit hard, it was rewarding when I was able to come up with the final parts sketch. I might not be an Eagle Pro but I definitley understand the ins and outs of it a lot better. It also helped me understand how board are made and work a lot better. 
 
