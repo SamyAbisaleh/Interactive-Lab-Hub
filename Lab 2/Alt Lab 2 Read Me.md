@@ -26,16 +26,17 @@ In this repo you will find the original files from Adafruit for the Metro Mini a
 I've decided I want to be able to read the temperature from my Metro Mini and have that be a part of the board itself. This requires adding an Temperature Sensor. I am using a surface mount [component](https://app.ultralibrarian.com/details/1690C20E-103F-11E9-AB3A-0A3560A4CCCC/Texas-Instruments/TMP102AIDRLRG4?ref=digikey)
 
 **b) What Arduino form-factor/design are you basing your design off of?**
-* I am using the Arduino Metro Mini. 
+* My design is based off of the Metro Mini, the files I started with can be found: [here](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/tree/master/Lab%202/Metro%20Mini%20Files/Adafruit-METRO-328-PCB-master/Adafruit-METRO-328-PCB-master)
 
 **c) What features/parts need to be incorporated for your Arduino+? Include your research!**
-* Based on the datasheet there are multiple things that needed to be considered and added to my Arduino. The first is based on the schematic of the part: 
+Based on the datasheet there are multiple things that needed to be considered and added to my Arduino.
+1. The entire Metro Mini must be operating at 3.3 V instead of 5V as the SDA and SCL pins cannot operate at 5V and it may cause damage to the sensor
+2. The second important feature that I must incorporate is 2 5K resistors that buffer the SDA and SCL pins from the 3.3 Volts.
+3. Finally, I must include a .01 uF capacitor to help prevent noise from impacting the sensor.
+
+The schematic I based these decisions off of can be found below.
 
 * ![](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%202/Schematic.PNG)
-
-* The schematic identifies that I require 3 5K resistors and 1 .01 uF capacitor. 
-
-Furthermore, the Arduino is usually performing at 5V but as can be seen in the schematic this part operates at 3.3 V, to change all the I/O pins to be at a max of 3.3V I changed the direction of the switch on the bottom by using
 
 **d) What is the timeline for the overall development of your Arduino?**
 
