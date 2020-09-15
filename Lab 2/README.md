@@ -85,11 +85,11 @@ Develop a bill of materials for your Arduino +.
 
 ## Part C. Prototype your Arduino+
 
-As much as is possible, prototype the design of your Arduino +. This step may require time. For example, if you have to order breadboard able parts that you don't have on hand, you might have to order those and wait for them to arrive. On the other hand, for other aspects of your design, like layout, you might be able to use sketches to figure out how everything will fit together, or if it will be large enough or small enough for the application you have in mind. 
-
-Sometimes you're just testing out design constraints. For example, if you are making an Arduino + speaker to be a musical dog collar for your pet, you can see how heavy a collar your dog will tolerate by making a dummy board and case.
+To prototype my Arduino, I need to order a [Temperature Sensor](https://www.mouser.com/ProductDetail/Adafruit/3251?qs=DJieTMTAD3WAE3SOd7%2FRQw%3D%3D&gclid=CjwKCAjwzIH7BRAbEiwAoDxxTgqD1cUPylyEOXAOaqj2XDN8bReeUK0V1-HSz6L37ovNxTEsysf4IxoC5T8QAvD_BwE). The one that can be found by clicking the link is very similar to my temperature sensor, and is good method of trying out the weather sensor. Everything comes on a PCB, and it comes preinstalled with resistors and ports. It will give me an idea of how I can run the temp-sensor. 
 
 **Describe key design questions (how big are the parts? what pins need to be connected?) and how you used/will use prototyping to answer them.**
+
+The parts are very small, and will fit on a breadboard. I will connect, pins A4 and A5, as well as the pins that connect the weather sensor to 3.3V and GND. This will allow me to prototype my code and determine whether or not it works. Furthermore, it will give me a point of comparison to my own board. Allowing me to determine where I might have gone wrong -- if the board does not work. 
 
 ## Part D. Layout your Arduino+
 * [Metro Mini official open source layout](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/tree/master/Lab%202/Metro%20Mini%20Files/Adafruit-METRO-328-PCB-master/Adafruit-METRO-328-PCB-master)
@@ -109,7 +109,9 @@ When you have laid out your board, send it off to be fabricated. You might need 
 ## Pain Points
 There were a couple of pain points I had with this assignment
 * The assignment instruction are a bit unclear, as theres a mix of being told to buy and prototype but also not buy and wait to get it checked
+
 * I don't have any experience using Eagle, and I've never prototyped or designed a board. This was not a huge issue. The issue came when I had to come up with ideas, I wasn't sure what was easy and what was hard, and I didn't have many other ideas to compare them to. 
+
 * Similar to my lack of experience with Eagle, I thought that the Pre-lab wasn't of much help (in the sense that we are coming up with many different ideas). I think in the future, a potentially better Pre-Lab would be to watch, learn, and do a schematic and board based on a video uploaded to YouTube (basically introduce Eagle). And then have say, 4 options for the designable board: IR sensor, Temp sensor, Built-in LCD, DIY. The last option will allow students with experience to do what they want, and the other 3 will help the TA's not have to help everyone without any knowledge of their parts. (Note: there might be a better way to do this, just an idea)
 
 * Overall though, although I found the assignment a bit hard, it was rewarding when I was able to come up with the final parts sketch. I might not be an Eagle Pro but I definitley understand the ins and outs of it a lot better. It also helped me understand how board are made and work a lot better. 
