@@ -40,9 +40,11 @@ The schematic I based these decisions off of can be found below.
 
 **d) What is the timeline for the overall development of your Arduino?**
 
-Based on a quick look at PCBShopper, it seems as though the timeline for the development of my Arduino is 7 days 
+Based on a quick look at PCBShopper, it seems as though the timeline for the development of my Arduino is about 7 days to be created. Overall the entire project will take about 2-3 weeks to be completed. 1 week to determine what I am working on, and designing what I am working on. 1-2 weeks to order, create, and ship my design.
 
 **e) Which fabrication company are you using, what do you plan to order, and what is the design rationale for the selection?**
+
+I already ordered all my parts and my PCB using the Aisler.net. The total cost was about 15 dollars with shipping. This is expected to come to me in about 1-2 Weeks. I used this selection because it is a US based company (shipping should not be delayed due to COVID), the prices were low (15 dollars for 3 boards), they will put the parts on the board for me (just upload BOM and assign your parts). I was very impressed with how simple the process was, and I hope that everything comes in working condition. 
 
 ## Part B. Order parts for your Arduino+
 
@@ -107,6 +109,8 @@ The parts are very small, and will fit on a breadboard. I will connect, pins A4 
 When you have laid out your board, send it off to be fabricated. You might need to order components, tools or other apparatus (like programmers or FTDI interfaces) to complete the design at this time too.
 
 **Document what you sent, and to where, with enough specificity that anyone else could have the same thing made.**
+
+I send the board found under part D. I sent it to Aisler, after determining its sizing. I would really recommend checking out their website, as they made the entire process almost seamless. [Link can be founder here](https://aisler.net/). Furthermore, my board can be found [here](https://aisler.net/p/UBRWSGKI).
 
 ## Pain Points
 There were a couple of pain points I had with this assignment
