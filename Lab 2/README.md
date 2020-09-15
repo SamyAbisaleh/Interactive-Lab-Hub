@@ -40,6 +40,8 @@ The schematic I based these decisions off of can be found below.
 
 **d) What is the timeline for the overall development of your Arduino?**
 
+Based on a quick look at PCBShopper, it seems as though the timeline for the development of my Arduino is 7 days 
+
 **e) Which fabrication company are you using, what do you plan to order, and what is the design rationale for the selection?**
 
 ## Part B. Order parts for your Arduino+
