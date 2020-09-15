@@ -36,7 +36,7 @@ Based on the datasheet there are multiple things that needed to be considered an
 
 The schematic I based these decisions off of can be found below.
 
-* ![](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%202/Schematic.PNG)
+![](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%202/Schematic.PNG)
 
 **d) What is the timeline for the overall development of your Arduino?**
 
