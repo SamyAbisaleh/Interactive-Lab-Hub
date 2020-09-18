@@ -32,14 +32,11 @@ Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 * Angle is controlled by the integer position. If Position is 180 that means the servo is at 180 degrees. If it is at 90 it is at 90 degrees. On the other hand speed can be controlled in two different ways. If you change the amount in which the position is increasing or decreasing, the speed will be increased. Furthermore, decreasing the delay time will also increase the speed. 
 
 ## Part C. Integrating input and output
+* I made the servo motor rotate in relationship to the potentiometer. I did so by mapping the analog input of the potentiometer to the vale
 
 ## Part D. Autonomy!
 
-Remove the USB cable
 
-Use the 9V battery and pigtail to power the Arduino using the Vin and Ground line.
-
-**Include a photo/movie of your autonomous device in action.**
 
 ## Part E. Paper display
 
