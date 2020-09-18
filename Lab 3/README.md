@@ -35,7 +35,8 @@ Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 * I made the servo motor rotate in relationship to the potentiometer. I did so by mapping the analog input of the potentiometer to the vale
 
 ## Part D. Autonomy!
-
+**Include a photo/movie of your autonomous device in action.**
+<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%203/Part%20D.gif">
 
 
 ## Part E. Paper display
