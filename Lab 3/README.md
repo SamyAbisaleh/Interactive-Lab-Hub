@@ -25,17 +25,11 @@ F) [Make it your own](#part-f-make-it-your-own)
 Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 
 ### Part 2. Connect the Servo to your Arduino
-
-Now open the [Sweep](https://www.arduino.cc/en/Tutorial/Sweep) sketch in the Arduino IDE. 
-
-```File > Examples > Servo > Sweep```
-
 **a. Which Arduino pin should the signal line of the servo be attached to?**
-Upload the sketch to the Arduino. Your servo should start sweeping back and forth, by about 180 degrees.
-
-Change some parameters in the sketch to make the servo sweep slower, or over a smaller angle.
+* The code "sweep" attaches the servo on Arduino Pin 9. Using the code: myservo.attach(9).
 
 **b. What aspects of the Servo code control angle or speed?**
+* Angle is controlled by the integer position. If Position is 180 that means the servo is at 180 degrees. If it is at 90 it is at 90 degrees. On the other hand speed can be controlled in two different ways. If you change the amount in which the position is increasing or decreasing, the speed will be increased. Furthermore, decreasing the delay time will also increase the speed. 
 
 ## Part C. Integrating input and output
 
