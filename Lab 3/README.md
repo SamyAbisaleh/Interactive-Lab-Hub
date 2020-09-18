@@ -33,10 +33,6 @@ Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 
 ## Part C. Integrating input and output
 
-Using what you've learned already, write code to control the servo motor circuit, either:
-* adjusting the servo motor rotation to reflect the reading on a potentiometer voltage divider circuit, (Yes, it is fine to use any other analog voltage sensor!), or, 
-* reflecting pre-programmed actions you design. 
-
 ## Part D. Autonomy!
 
 Remove the USB cable
