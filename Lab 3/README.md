@@ -41,6 +41,7 @@ Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 
 ## Part E. Paper display
 **a. Make a video of your paper display in action.**
+
 <img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%203/Part%20E.gif">
 
 ## Part F. Make it your own
