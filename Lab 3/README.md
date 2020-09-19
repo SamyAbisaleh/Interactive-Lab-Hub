@@ -40,30 +40,8 @@ Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 
 
 ## Part E. Paper display
-
-Here is an Arduino breadboard with a paper faceplate on it to turn it into a display:
-
-![]()
-
-This is fine, but it can be a bit difficult to lay out a great and user friendly display within the constraints of the breadboard. Also, it really only works for applications where people can come and stand over the breadboard, or where you can mount the board to the wall.
-
-Here is another prototype for a paper display:
-
-![]()
-
-It holds a breadboard and 9v battery, and provides a front stage on which to put writing, graphics, LEDs, buttons or displays.
-
-This design can be made by scoring a long strip of corrugated cardboard of width X, with the following measurements:
-
-| Y height of box <br> <sub><sup>- thickness of cardboard</sup></sub> | Z  depth of box <br><sub><sup>- thickness of cardboard</sup></sub> | Y height of box  | Z  depth of box | H height of faceplate |
-| --- | --- | --- | --- | --- | 
-
-Fold the first flap of the strip so that it sits flush against the back of the face plate, and tape, velcro or hot glue it in place. This will make a H x X interface, with a box of Z x X footprint (which you can adapt to the things you want to put in the box) and a height Y in the back. 
-
-Make a paper display that uses the servo to show how many times a button on the front has been pressed (or any other thing you can sense or count). Ideally you should design it so that you can slide the breadboard out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
-
-
 **a. Make a video of your paper display in action.**
+<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%203/Part%20E.gif">
 
 ## Part F. Make it your own
 
