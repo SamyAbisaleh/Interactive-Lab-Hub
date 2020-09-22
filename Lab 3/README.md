@@ -46,12 +46,10 @@ Red is 5V, Brown is Ground, and the Signal Pin is Yellow.
 
 ## Part F. Make it your own
 
-Now modify this set up to make this your own design. 
-
-Use paper to build a paper template. Use an Olfa knifes to cut out your pattern, and glue or tape to put it together. <!--If you'd like to use the paper cutter, [here's how](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/How-to-use-the-Silhouette-Cameo-Cutter).-->
-
-You can create a game, you can enact a pre-programmed mini puppet show, or you can visualize data in a new way.
-
-<!--If your design involves having someone controlling the puppet in real time (e.g. using sensors), please film that happening. Otherwise, film the puppet performing it's moves. -->
+[Code](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%203/GameCode/GameCode.ino)
 
 **a. Make a video of your final design in action.**
+
+I made the game that you sometimes see at the mall, where you press the button at the right positon, and the more right you are the faster it goes. I really wanted to include an LCD and make the game count how many times you get it right, and start over when you fail. However, due to the sheer amount of wires and cabling around back I wasn't able to do this. However, the code is included to count these values -- so implementing it in the future is easy.
+
+<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab%203/Part%20F.gif">
