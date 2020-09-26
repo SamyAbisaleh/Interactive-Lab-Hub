@@ -30,7 +30,7 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 
 * The best way to do this is by using two resistors in parallel. We are given 330 ohm resistors -- to get them close to 150 we put two of them together and that results in us having a 165 ohm resistor. 
 
-<img src=
+<img src=https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/RGB-Parallel.jpg>
 
 ## Part C. Resistance & Voltage Varying Sensors 
 ### FSR
