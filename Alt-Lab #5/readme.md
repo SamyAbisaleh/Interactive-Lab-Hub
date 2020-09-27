@@ -34,38 +34,35 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 
 ## Part C. Resistance & Voltage Varying Sensors 
 ### FSR
-Now that you have a set up that lets you look at changes in the analog voltage from the potentiometer, let's swap in other analog sensors!
-
-<img src=https://cdn-shop.adafruit.com/1200x900/166-00.jpg alt="FSR" width=400>
-
-The FSR (force sensitive resistor) changes resistance — in this case when pressure is applied to the FSR. [Here's the datasheet](https://cdn-shop.adafruit.com/datasheets/FSR400Series_PD.pdf). We'll use a voltage divider with a 27kOhm resistor, using the analog input with the previous potentiometer code. (Feel free to use a 10kOhm resistor instead, or anything in this range.)
-
-![Voltage Divider](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/wiki/images/fsr_voltage_divider.png)
-
-We need a voltage divider because the Arduino can't measure resistance directly, which is the thing that changes when you physically interact with the sensor. A voltage divider circuit converts a change in resistance to a change in voltage.
 
 **a. What voltage values do you see from your force sensor?**
 
+* I see many values from 0 to about 1000 this correlates to 0 Volts to about 4.88 Volts. It was really difficult to get it higher than that. 
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+
+* I think that the relationship is exponential. The more force applied the higher the resistance is. Basically -- it is easy to greatly increase or decrease the resistance by putting a little bit of pressure initially. But the more pressure added the harder it becomes. For example, when I reached 4.88 volts I had to push really hard to maybe get about 1001 analog reading. 
 
 **c. In `Examples->Basic->Fading` the RGB LED values range from 0-255. What do you have to do so that you get the full range of output voltages from the RGB LED when using your FSR to change the LED color?**
 
-## Flex Sensor, Photo cell, Softpot
-Now experiment with the [flex sensor (Optional)](https://www.adafruit.com/product/1070), [photo cell](https://www.adafruit.com/product/161) and [softpot](https://www.adafruit.com/product/178).
+* I'm not sure that I particularly understand this question. But I believe its asking how can we get a PWM to operate across the entire range from 0-255. To do this I would use the MAP function that arduino has to map the values of 0-255 to 0-1000 (1000 = 255). 
 
-<img src=https://cdn-shop.adafruit.com/1200x900/1070-01.jpg alt="flex sensor" width=250>
-<img src=https://cdn-shop.adafruit.com/1200x900/161-00.jpg alt="photocell" width=250>
-<img src=https://cdn-shop.adafruit.com/1200x900/178-00.jpg alt="softpot" width=250>
+## Flex Sensor, Photo cell, Softpot
 
 **a. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
+* The photocell depends on where you are. If you are somewhere bright use a 1K Ohm pulldown it will allow you to detect differences betwen bright and really bright. However, using a 10k is good for darker areas where you are going betwen kind of dark and really dark. (10K will saturate quickly, 1K will give you more wiggle room).
+
+* For the softpot we are using 2-10K OHm resistors in series. One connected one one side of the pot, and one on the other side of the pot. 
+
 **b. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
-Control the colors of the LED using the above sensors ( including FSR )
+* The photocell has a similar resistance to the FSR -- as light is increased it becomes harder to decrease the the resistance. However, when light is low changes in resistance are simple. 
+
+* The Softpot on the other hand seems to have a much more linear relationship. Where your finger is on the potentiometer directly impacts the resistance. For example, if you're hand is in the center then the resistance is equal to half of that of the maximum of the soft pot (in our case about 5k) 
 
 ## Part D. I2C Sensors 
 
-Some more sophisticated sensors have ICs that measure physical phenomena and then output an digital signal indicating what the analog voltage reading is. 
 ### Accelerometer
  
 The accelerometer is a 3-axis, accelerometer based on the LIS3DH. The LIS3DH is a 3.3V part, but the Adafruit board has an onboard voltage regulator so that the part can be powered on 5V power on the Vin pin.
