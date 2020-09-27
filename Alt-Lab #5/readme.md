@@ -26,7 +26,7 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 
-* The best way to do this is by using two resistors in parallel. We are given 330 ohm resistors -- to get them close to 150 we put two of them together and that results in us having a 165 ohm resistor. 
+* The best way to do this is by using two resistors in parallel. We are given 330 ohm resistors -- to get them close to 150 we put two of them together and that results in us having a 165 ohm resistor. (Note -- I only used this for the G for ease of visual -- this same thing should be copied to all the other 2 pins of R and B) 
 
 <img src=https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/RGB-Parallel.jpg>
 
