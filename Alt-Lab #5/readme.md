@@ -1,7 +1,5 @@
 ## Overview
 
-What's in this lab?
-
 A. [Writing to the Serial Monitor](#part-a--writing-to-the-serial-monitor)
 
 B. [RGB LED](#part-b-rgb-led)
