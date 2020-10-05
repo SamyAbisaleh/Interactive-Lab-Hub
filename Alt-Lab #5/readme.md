@@ -43,7 +43,7 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 
 **c. In `Examples->Basic->Fading` the RGB LED values range from 0-255. What do you have to do so that you get the full range of output voltages from the RGB LED when using your FSR to change the LED color?**
 
-* I'm not sure that I particularly understand this question. But I believe its asking how can we get a PWM to operate across the entire range from 0-255. To do this I would use the MAP function that arduino has to map the values of 0-255 to 0-1000 (1000 = 255). 
+* I'm not sure that I particularly understand this question. But I believe its asking how can we get a PWM to operate across the entire range from 0-255. To do this I would use the MAP function that arduino has to map the values of 0-255 to 0-1000 (1000 = 255). This feature would basically map the values from 0-1000 as if they were from 0-1023 and only in the range of 0-255.
 
 ## Flex Sensor, Photo cell, Softpot
 
@@ -62,22 +62,6 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 ## Part D. I2C Sensors 
 
 ### Accelerometer
- 
-The accelerometer is a 3-axis, accelerometer based on the LIS3DH. The LIS3DH is a 3.3V part, but the Adafruit board has an onboard voltage regulator so that the part can be powered on 5V power on the Vin pin.
- 
-Here's the [Datasheet](https://cdn-shop.adafruit.com/datasheets/LIS3DH.pdf)
- 
-Unlike the other parts we've used to date, this is a "smart sensor" which can communicate the sensor readings digitally (rather than through an analog voltage) using communication protocols I2C and SPI. 
- 
-[This example code](https://learn.adafruit.com/adafruit-lis3dh-triple-axis-accelerometer-breakout/arduino) is meant to read values from a 3-axis accelerometer out to a computer over the serial monitor. Test it out! Hint: make sure to read the I2C Wiring section carefully, because the picture uses a different kind of Arduino. Here's a Fritzing diagram of the correct wiring:
-
-https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/master/Lab4/LIS3DH_breadboard.JPG
-
-Adapt the code to indicate what your readings are on the X, Y and Z axes of the accelerometer on your 16x2 LCD panel.
-
-Now set up the RGB LED so that each color is mapped to the X, Y and Z axes accelerations.
- 
-Get a feel for the data the accelerometer provides. Pick up the Arduino+accelerometer board and tilt it in various directions. Start by holding it so that the accelerometer board is parallel to the ground. Find in which direction the X reading increases and decreases; do the same for the Y reading.
  
 **a. Include your accelerometer read-out code in your write-up.**
 
