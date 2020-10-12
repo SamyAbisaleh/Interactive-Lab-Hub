@@ -87,9 +87,9 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 
 * As the EEPROM is byte sized -- it can only store values from 0-255. Meanwhile analog values range from 0-1023. One way of doing this is to map the values. 0-255 to 0-1023. I would do this for analog data from I2C devices as well. This could use the update function to write on a single byte. 
 
-**e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut]
+**e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut]**
 
-* If this previous method wasn't modular enough one could also allocated consecutive addresses to store values. For example, using EEPROM.put() will allow a person to move the address to the next byte consecutivley until it allocates for the entire variable. Unlike the update function the pt function writes multiple bytes. Furthermore, it will only overwrite data if it has changed.
+* If the previous method wasn't modular enough one could also allocated consecutive addresses to store values. For example, using EEPROM.put() will allow a person to move the address to the next byte consecutivley until it allocates for the entire variable. Unlike the update function the pt function writes multiple bytes. Furthermore, it will only overwrite data if it has changed.
 
 ### 2. Design your logger 
 **a. Turn in a copy of your final state diagram.**
