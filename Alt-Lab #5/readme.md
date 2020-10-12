@@ -71,19 +71,25 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 ## Part E. Logging values to the EEPROM and reading them back
  
 ### 1. Reading and writing values to the Arduino EEPROM
-
 **a. Does it matter what actions are assigned to which state? Why?**
+
+* Yes, it does matter what actions are assigned to which state. For example, if the first action you assign is to read -- but there is nothing written then you will be returned with nothing. If you clear before you read then you will also be returned with nothing. Basically the order determines what you end up seeing and how you are able to work with the code and data. 
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 
-The state functions are located in their own Setup codes because they are expected to only be called once -- when they are ran. 
+* The state functions are located in their own Setup codes because they are expected to only be called once -- when they are ran. In other words, they are in the loop of the SwitchState code (the main code). But they are in their own setup code. So when the SwitchState code calls them, they are only called once -- rather than getting stuck within their own loop() function.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
+* The Atmega328 holds 1024 byes.
+
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+
+* As the EEPROM is byte sized -- it can only store values from 0-255. Meanwhile analog values range from 0-1023. One way of doing this is to map the values. 0-255 to 0-1023. I would do this for analog data from I2C devices as well. 
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut]
 
+* If this previous method wasn't modular enough one could also allocated consecutive addresses to store values. For example, using EEPROM.put() will allow a person to move the address to the next byte consecutivley until it allocates for the entire variable. 
 
 ### 2. Design your logger 
 **a. Turn in a copy of your final state diagram.**
