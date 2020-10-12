@@ -94,6 +94,8 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 ### 2. Design your logger 
 **a. Turn in a copy of your final state diagram.**
 
+<img src = https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/State%20Diagram.png>
+
 ## Part G. Create your own data logger!
 Now it's up to you to integrate the software and hardware necessary to interface with your data logger! Your logger should be able to record a stream of analog data (at a sample rate of your desire) and then play it back at some later point in time on your display of choice.
  
