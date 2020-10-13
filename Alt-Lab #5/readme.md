@@ -12,6 +12,8 @@ E. [Logging Values to the EEPROM and Reading Them Back](#part-f-logging-values-t
 
 F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 
+G. [Interactive Device](#integrated-interactive-device)
+
 ## Part A.  Writing to the Serial Monitor
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
