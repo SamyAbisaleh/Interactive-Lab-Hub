@@ -108,7 +108,24 @@ F. [Create your own Data logger!](#part-g-create-your-own-data-logger)
 ***
 For your write up, include:
 1.	Your Arduino code.
-2.	.stl or .svg files for your Jack — if you use some other technique, include the respective supporting material.
-3.	At least one photo-studio-quality photo of your box closed, and another photo of your box open. 
 
-4.	A video of your box in action.
+* [Code](https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/Sweep.ino)
+
+2.	At least one photo-studio-quality photo of your box closed, and another photo of your box open. 
+
+* Closed Box 
+
+<img src = https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/Closed%20Box.jpg>
+
+* Open Box 
+
+<img src = https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/Open%20Box.jpg>
+
+3.	A video of your box in action.
+
+* Video
+
+<img src = https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Alt-Lab%20%235/Video%20of%20Box.gif>
+
+**A note** 
+* As I was working on this, my metro mini broke and I had to replace it with my arduino uno. This would usually not be an issue because they both do the same thing. However, by doing this I ran into a huge issue of space. Fitting the breadboard, arduino uno, and battery inside the box was almost impossible. So the final result was that I had to sacrifice functionality. Due to the lack of space I had to give up on adding an interactive parts. The lights had to remain on because adding a photoresitor that turned them on when the box was open added too much wiring. I also really wanted to add sound to the box so that when it opened it referenced the anime which it was drawn from -- however, due to the arduino's design it was not possible to get the sound to work. Overall this gave me a really unique insight into how people have to sacrifice functionality for space and cost. 
