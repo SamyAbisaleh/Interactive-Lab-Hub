@@ -7,14 +7,13 @@ In this lab, we will use a Raspberry Pi to create a GreetingBot!
 ### Try some Python code on the Pi
 
 **How do you know what the shell script is doing?**
-* Using nano will allow you to access the shell script and see/adjust its output. In other words by looking at the nano of the shell script, one can determine what the script's output is. 
-. 
-
-These scripts use a program called [``vosk``](https://alphacephei.com/vosk/) to recognize numbers. 
+* Using nano will allow you to access the shell script and see/adjust its output. In other words by looking at the nano of the shell script, one can determine what the script's output is.
 
 **How do we use ``vosk`` to recognize words and phrases?**
+* In short we use Vosk to have it recognize words and phrases. We do this by initializing vosk with test_simple.py and test_words.py. Then we use vosk_demo_mic.sh to run the program. What this does, is it records the sound coming in -- it then sends it to the python file test_words which then compares the wav file to the words given and the words it is looking for. This will then yield the output. 
 
 **Include the output of vosk recognizing phrases you taught it to look for.**
+
 
 **Include the listing for a shell script and model files that you use to get vosk to recognize these phrases.**
 
