@@ -17,6 +17,7 @@ In this lab, we will use a Raspberry Pi to create a GreetingBot!
 <img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-6/Output%20of%20VOSK.PNG">
 
 **Include the listing for a shell script and model files that you use to get vosk to recognize these phrases.**
+* Shell Script: bash vosk_demo_mic.sh
 
 
 ### Experimenting with Linux processes
@@ -33,29 +34,9 @@ In this lab, we will use a Raspberry Pi to create a GreetingBot!
 
 ## Your own voice agent 
 
-Program a simple application that understands different basic greetings (for example, Yo!, Good morning! And Good afternoon!) and responds either visibly, physically or auditorially in kind!
-
-You are free to adapt this assignment to have the agent respond to any other set of vocabulary for any other purpose.
-
 **Record someone trying out your design**
-
-Using a phone or other video device, record someone trying out your GreetingBot. (This does not need to be an advertisement for your ChatBot; it is okay if the person is confused or asks questions or doesn't like it. We like the drama. Do not record someone using the default ChatBot.) Post the video to your README.md page!
+https://drive.google.com/file/d/1m5mu-MQk30RzPeWxnWimBVB0mTORG75a/view?usp=sharing
 
 **Submit your code to Github**
-
-This project is going to be the submission of this week. You will need to upload the changes you made on the Pi to the GitHub page. To do that you need to follow three simple steps: Stage => Commit => Push! 
-
-[Uploading on github via terminal](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/adding-a-file-to-a-repository-using-the-command-line)
-
-```
-$ git add .
-# Adds the file to your local repository and stages it for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
-
-$ git commit -m "Add existing file"
-# Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
-
-$ git push origin your-branch
-# Pushes the changes in your local repository up to the remote repository you specified as the origin
-```
-
-You might be required to login in the terminal to your GitHub account. For more details on how the Git commands work or what other commands are available checkout this [cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf).  
+https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-6/test_words.py
+https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-6/pico2text_demo.sh
