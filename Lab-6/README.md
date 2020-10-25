@@ -14,6 +14,7 @@ In this lab, we will use a Raspberry Pi to create a GreetingBot!
 
 **Include the output of vosk recognizing phrases you taught it to look for.**
 
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-6/Output%20of%20VOSK.PNG">
 
 **Include the listing for a shell script and model files that you use to get vosk to recognize these phrases.**
 
