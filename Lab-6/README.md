@@ -35,8 +35,10 @@ In this lab, we will use a Raspberry Pi to create a GreetingBot!
 ## Your own voice agent 
 
 **Record someone trying out your design**
+
 https://drive.google.com/file/d/1m5mu-MQk30RzPeWxnWimBVB0mTORG75a/view?usp=sharing
 
 **Submit your code to Github**
+
 https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-6/test_words.py
 https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-6/pico2text_demo.sh
