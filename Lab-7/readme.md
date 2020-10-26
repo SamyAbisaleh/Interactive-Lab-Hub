@@ -4,41 +4,55 @@
 
 ## Serving webpages with the Raspberry Pi
 
-** customize the code enough that the webpage served up is clearly your own, and include a screenshot and any modified code in the lab folder. **
+**Customize the code enough that the webpage served up is clearly your own, and include a screenshot and any modified code in the lab folder.**
 
 ## Set up and Run Interaction Engine
 ### Flash the HelloYou Sketch onto the Arduino
 
 Look at the code. How does the Arduino communicate with the Pi when the code is running?
-** What messages are sent from the Arduino to the Pi? **
+**What messages are sent from the Arduino to the Pi?**
 
 * The arduino is sending a message in the last bit of code in which we are checking for a new state of the button. The messages the arduino is sending are either "light" or "dark."
 
-** What messages are expected from the Pi to the Arduino? **
+**What messages are expected from the Pi to the Arduino?**
 
 * The arduino expects the following characters: "H." If it gets anything else it will set the LED to low. 
 
-** What happens if the Pi sends an unexpected message to the Arduino? **
+**What happens if the Pi sends an unexpected message to the Arduino?**
 
-* If we get an unexpected Character then the Pi will write the led as a 0, basically turning it off. 
+* If we get an unexpected Character then the Pi will write the led as a 0. 
 
-** How fast does the Arduino communicate with the Pi? What would you change to make it send messages less often? **
+**How fast does the Arduino communicate with the Pi? What would you change to make it send messages less often?**
 
-* 
+* Based on the current code, the Arduino is communicating with the Pi at a speed 9600 BPS. If we change the Serial.begin from 9600 to 4800 we would slow down the rate of communication between the Pi and Arduino.
 
 ### Run the HelloYou server on the RPi
 
 Using your favorite text editor, open `helloYou/server.py`.
 
-Look at the code. What interface does the Pi use to communicate with the Arduino when the code is running?
-What messages are sent from the Pi to the Arduino? 
-What messages are expected from the Arduino to the Pi?
-What happens if the Arduino sends an unexpected message to the Pi?
-What part of the code controls what is served when a browser requests a page from the server?
-What messages are sent to the console? When?
+**Look at the code. What interface does the Pi use to communicate with the Arduino when the code is running?**
 
+* The Pi uses the html client to communicate with the Arduino. When the Button on the html page is pressed then the Pi will do ser.write(b'H') making the Led turn on. 
 
-The browser shows the webpage that we loaded, and is also running the associated `client.js` file.
+**What messages are sent from the Pi to the Arduino? **
+
+* Pi sends the character 'H' to the Arduino. 
+
+**What messages are expected from the Arduino to the Pi?**
+
+* The arduino sends "light" or "dark" to the Pi. If the button is pressed and it is light than the Pi then changes the html file to the light file which has the background become white. If it is not pressed then the background is dark. 
+
+**What happens if the Arduino sends an unexpected message to the Pi?**
+
+* 
+
+**What part of the code controls what is served when a browser requests a page from the server?**
+
+*
+
+**What messages are sent to the console? When?**
+
+*
 
 ## Internet of Cornell Tech Things 
 
