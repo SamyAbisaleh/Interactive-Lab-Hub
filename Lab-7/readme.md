@@ -5,6 +5,11 @@
 ## Serving webpages with the Raspberry Pi
 
 **Customize the code enough that the webpage served up is clearly your own, and include a screenshot and any modified code in the lab folder.**
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-7/Webpage1.PNG">
+
+On button press:
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-7/webpage2.PNG">
 
 ## Set up and Run Interaction Engine
 ### Flash the HelloYou Sketch onto the Arduino
