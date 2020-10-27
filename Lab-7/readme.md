@@ -62,7 +62,3 @@ Using your favorite text editor, open `helloYou/server.py`.
 
 ## Video doorbell
 
-Now, using design a video doorbell, or any application where you can remotely control and observe action at another location. It is okay to partner up on this assignment so that you and someone else in the class have devices that communicate with one another. 
-
-** Please include video of the project **
-** All supporting designs materials and code should be in your lab assignment folder, and documented enough that you could recreate it from scratch if you had memory loss. **
