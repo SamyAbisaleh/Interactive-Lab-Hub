@@ -61,4 +61,6 @@ Using your favorite text editor, open `helloYou/server.py`.
 * A message is sent to the console when the Flask server is officially running, when someone connects to the client, and when a button is pressed. 
 
 ## Video doorbell
+<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Lab-7/Remote%20Doorbell.gif">
 
+See code in files. Basically this code is accessible from inside the house. It can be made acessible externally via port forwarding. But this opens the house up to dangers. The best thing to do would be to open SSH and then forward in that way. 
