@@ -35,8 +35,9 @@ To replicate the project which I had done the parts required are as follows:
 <img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Transistor.PNG">
 
 5. Breadboard
-6. Wires 
-7. 9V Battery 
+6. Wires
+7. [9V Battery](https://www.amazon.com/Duracell-Coppertop-Alkaline-Batteries-Count/dp/B000K2NW08/ref=sr_1_1_sspa?crid=1YDGV99KHEPLV&dchild=1&keywords=9v+battery&qid=1608236229&sprefix=9V+%2Caps%2C176&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExQ09PREJIUEVQN1FSJmVuY3J5cHRlZElkPUEwOTc1MTA1RTJZOU5RWFROSFBCJmVuY3J5cHRlZEFkSWQ9QTAyMzgxNDY0Q09LRjZTWDcyOTImd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
+8. [12V Battery](https://www.amazon.com/AB12120-12AH-Replacement-Battery-LW-6FM10DC/dp/B07W73631X/ref=sr_1_2_sspa?crid=1J1O0QICN70Y5&dchild=1&keywords=12v+battery&qid=1608236166&sprefix=12V+battery%2Caps%2C182&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVEhZMDVRUUE1OUNTJmVuY3J5cHRlZElkPUEwNjQ4OTI1M0hWWVozUVlZME1NRiZlbmNyeXB0ZWRBZElkPUEwMjEzMjY4RURCQVI3UEdZVUVHJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 
 ### Step 2: Put everything together. 
 
@@ -58,6 +59,26 @@ Use screws and wingnuts to mount the motor in place (Sadly I don't have any pict
 
 #### Step 2.C
 
-Create the circuit. 
+Build the circuit. Personally I started by building a simple NPN Transistor circuit where I used and LED to check if the circuit is properly wired: 
 
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/LED_Circuit.jpeg">
+
+A better look at this circuit is as follows: 
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/LED_Circuit_TinkerCad.png">
+
+The next step after getting this circuit to work is to replace the NPN transistor with a larger size NPN transistor that can hold 10 Amps of current, as per the motor specfications. The best set up was using a two 5 AMP transistors in parallel (the TIP120), and replacing the LED with the two motors. 
+
+This will yield a circuit of: 
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Final Circuit.jpeg">
+
+There are a few aspects of the circuit which are not pictured. These are:
+
+1. 12 V battery connection. The 12 V battery needs to be connected to the power rail of the bread board.
+2. The 9V battery is connected to the Vin and GND of the arduino to power the arduino away from the computer. 
+
+## Final Result
+
+Sadly the final result was pretty dissapointing. I wasn't able to get the trashcan to operate for a long period of time as it constantly failed. 
 
