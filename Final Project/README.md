@@ -58,5 +58,6 @@ Use screws and wingnuts to mount the motor in place (Sadly I don't have any pict
 
 #### Step 2.C
 
+Create the circuit. 
 
 
