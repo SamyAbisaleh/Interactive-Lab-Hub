@@ -80,5 +80,7 @@ There are a few aspects of the circuit which are not pictured. These are:
 
 ## Final Result
 
-Sadly the final result was pretty dissapointing. I wasn't able to get the trashcan to operate for a long period of time as it constantly failed. 
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Final.gif">
+
+Sadly the final result was dissapointing. I wasn't able to get the trashcan to operate properly for a long period of time as it constantly failed. The point of failure was the NPN transistor. 
 
