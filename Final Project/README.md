@@ -65,7 +65,7 @@ Build the circuit. Personally I started by building a simple NPN Transistor circ
 
 A better look at this circuit is as follows: 
 
-<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/LED_Circuit_TinkerCad.png">
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/LED_Circuit_TinkerCad.PNG">
 
 The next step after getting this circuit to work is to replace the NPN transistor with a larger size NPN transistor that can hold 10 Amps of current, as per the motor specfications. The best set up was using a two 5 AMP transistors in parallel (the TIP120), and replacing the LED with the two motors. 
 
