@@ -42,5 +42,9 @@ Copy these holes onto the opposing side. You can using a tape measure, or in my 
 
 #### Step 2.B 
 
+Use screws and wingnuts to mount the motor in place (Sadly I don't have any pictures of this). But in short, take the motor, place it on top of the holes you previously cut out, place screws in the mounting brackets, place them all into the drilled holes and use the wingnuts to secure them in place. 
+
+#### Step 2.C
+
 
 
