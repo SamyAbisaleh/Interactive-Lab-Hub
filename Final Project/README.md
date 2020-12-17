@@ -20,6 +20,27 @@ To replicate the project which I had done the parts required are as follows:
 
 1. [Motors](https://www.robotshop.com/en/cytron-power-window-motors-w--5-wheels--pair.html)<img src="https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Motors.PNG">
 2. [Trash Can](https://www.amazon.com/AmazonCommercial-Gallon-Commercial-Basket-1-Pack/dp/B07YPRSX86/ref=sr_1_6?dchild=1&keywords=plastic+trash+can&qid=1608229844&sr=8-6)<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/TrashCan.PNG">
-3. [Arduino Uno](https://www.amazon.com/gp/product/B01EWOE0UU/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)<img src = "
+3. [Arduino Uno](https://www.amazon.com/gp/product/B01EWOE0UU/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Arduino.PNG">
+4. [Transistors](https://www.amazon.com/gp/product/B07LG2C3MY/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Transistor.PNG">
+5. Breadboard
+6. Wires 
+7. 9V Battery 
+
+### Step 2: Put everything together. 
 
 Putting together the trash can was fairly straightforward. 
+
+#### Step 2.A
+
+The first step of putting everything together was marking holes for the motor. The best way to do this is to use the motor as a way to measure, and mark the holes and then drill them in place: 
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Holes.PNG">
+
+Copy these holes onto the opposing side. You can using a tape measure, or in my case I used a paper to mark and then copy the holes.Basically, I layed the paper on the trash can then I poked a hole in the paper where the holes were. I then flipped the paper and the trash can and I drilled holes in the opposing side:
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Paper.PNG">
+
+#### Step 2.B 
+
+
+
