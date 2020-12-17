@@ -1,9 +1,18 @@
-# Rotating TV -- Activates and Deactivates with Hand Gestures, follows using facial recognition.
+# IDD Final Project
+## Initial Plan
+
+The initial goal of the project was the following: 
 
 My parents recently installed a TV in the Kitchen. The issue with this TV is that if you want to watch it or move it you have to stop what you are doing to go adjust it. Imagine yourself in a world where instead of having to personally move the TV you could have the TV follow you around. 
 
-I am planning to do this with multiple different objects. The first is a belt and pulley system, to rotate the TV left and right. The second is a Pi Camera. Ideally I want to set up the Pi Camera to read multiple aspects. The first is to read an individuals hand using open CV and follow peoples faces. Or just people in general as they move around. 
+After ordering the parts I quickly realized that working with a belt is not as simple as just connecting the belt, and having it work. There are a surprising amount of difficulties with trying to not get the belt not to slide and splicing the belt. The initial problems I had with the belt were trying to merge two sides of the belt. I got an open belt so that I could connect the belt wherever needed. This turned out to be a daunting task. Initially I tried using tape to hold the belt for prototyping, the tape just slipped and was unable to hold the belt together. Afterwards, I tried using hot glue which also failed to stick to the belt. I did not have the proper tools to test out any other methods of merging the belt, so I decided to change projects.
 
-To do this I am purchasing a window motor: https://www.robotshop.com/en/power-window-motor-with-coupling-right.html which will allow me to tug on the belt in either direction and have the TV follow. The second is a PiCamera which I have already purchased, and is already here. The third is a belt: https://www.robotshop.com/en/85-tooth-timing-belt.html
+## New Project
 
-Somethings I am unsure of is the capability of the Pi to handle the work and whether or not I would be able to process data from my computer and send it to the Pi to increase the speed of proceesing. Some potential issues that I see coming up are mounting the motor, and getting all the processes with the PiCamera to work properly. In other words, how is the Pi going to process all the information, and can it communicate with the computer via the cloud.  
+After not being able to complete the first project, I decided it was time to pivot. 
+
+Since I had purchased two motors, I thought a good idea would be to use those motors and create a trash can which takes itself to my door. The idea being that initially it would work manually, and eventually it would work via sensors and or CV to sense it way around a room.
+
+## The Process
+
+Putting together the trash can was fairly straightforward. 
