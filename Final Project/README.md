@@ -84,13 +84,23 @@ There are a few aspects of the circuit which are not pictured. These are:
 
 Sadly the final result was dissapointing. I wasn't able to get the trashcan to operate properly for a long period of time as it constantly failed. The point of failure was the NPN transistor, and overall there are many inefficiencies with the project itself. 
 
+### Mistakes & Problems
+
+The following section will discuss problems that occured that cannot be fixed, and why they occured. The goal of this is to provide people with information I learned that should not be repeated and why they should not be repeated. 
+
+The largest problem I had when conducting this test was ruining the arduino. In short, I connected the arduino and then the next time I connected it to my computer the computer stopped registering it. In retrospect I believe the reason for this is due to connecting the digital output of the arduino directly to the motor. 
+
+The issue is that I connected a very low power (milliamps) to a motor that requires 10 Amps of current. The motor is demanding 10 amps while the arduino is only able to provide 40mA. This is a huge difference in their current needs and resulted in the atmega chip dying. 
+
+I have ordered another ATmega328 chip and I am going to test to see if it solves the problem and post my results here. 
+
 ### Future Work
 
-I plan to adjust all these problems in the future with multiple different implementations to help fix the issues I currently have. 
+The three largest issues I currently have are circuitry, power, and lack of features. 
 
 #### Fix #1: Circuitry
 
-The first and most important fix that needs to be implemented into this is a better, more adaptable circuit. In otherwords, the circuit needs to not fry the transistor each time it is used. To do 
+The first and most important fix that needs to be implemented into this is a better, more adaptable circuit. In otherwords, the circuit needs to be rated for the current it is recieving. 
 
 This fix will be implemented in two main steps. 
 
@@ -104,9 +114,18 @@ Normally this would not be an issue, however, motors have inductive behavior. Me
 
 <img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Flyback Diode.png">
 
+##### Step #2: Motors
 
+The motors I bought are more focused on torque than speed, and I believe that they can be replaced with other motors which are both cheaper, and are less robust. Primarily, the trash can being moved is not heavy, and can stand to have smaller and less powerful motors. This would reduce the power and current requirements, and make the system much easier to run and prototype. 
 
+#### Fix #2: Power
 
-#### Fix #2: Setup
+The next important issue I had was the power. This would be reduced by using smaller motors, or it can be improved by improving the power source. This includes using a smaller battery which provides 12V over a shorter period of time. The current battery will last up to 45 minutes. The battery does not need to power motors for 45 minutes and this can be reduced to a 5-10 minute power source. This will reduce the weight on the motors and make it much easier to drive the motors and the system.
 
 #### Fix #3: Additional Benefits
+
+Finally, a few things that I want to add to this system are:
+1. Sensors which will allow the trash can to guide itself. (Either Computer Vision or distance sensors) 
+2. Camera, to be able to see what the trashcan sees.
+3. Remote Control (override sensors, and control trashcan if necessary)
+4. Streaming Capability (Stream and view the trash can from anywhere with internet connection). 
