@@ -122,10 +122,15 @@ The motors I bought are more focused on torque than speed, and I believe that th
 
 The next important issue I had was the power. This would be reduced by using smaller motors, or it can be improved by improving the power source. This includes using a smaller battery which provides 12V over a shorter period of time. The current battery will last up to 45 minutes. The battery does not need to power motors for 45 minutes and this can be reduced to a 5-10 minute power source. This will reduce the weight on the motors and make it much easier to drive the motors and the system.
 
+I will also connect the switch to the Digital Output of the arduino to be able to control the Motors with PWM rather than only high and low. This will allow me to create a much better system when it comes to steering and driving the trash can. 
+
 #### Fix #3: Additional Benefits
 
 Finally, a few things that I want to add to this system are:
-1. Sensors which will allow the trash can to guide itself. (Either Computer Vision or distance sensors) 
+1. Test with MOSFET over Transistor. Which one is better? Why?
 2. Camera, to be able to see what the trashcan sees.
 3. Remote Control (override sensors, and control trashcan if necessary)
-4. Streaming Capability (Stream and view the trash can from anywhere with internet connection). 
+4. Streaming Capability (Stream and view the trash can from anywhere with internet connection).
+5. Sensors which will allow the trash can to guide itself. (Either Computer Vision or distance sensors)
+
+
