@@ -128,7 +128,8 @@ I will also connect the switch to the Digital Output of the arduino to be able t
 
 Finally, a few things that I want to add to this system are:
 1. Test with MOSFET over Transistor. Which one is better? Why?
-2. Camera, to be able to see what the trashcan sees.
+2. Create an H-Bridge Circuit to be able to control the motors in forwards and reverse, rather than only in the forwards direction. 
+3. Camera, to be able to see what the trashcan sees.
 3. Remote Control (override sensors, and control trashcan if necessary)
 4. Streaming Capability (Stream and view the trash can from anywhere with internet connection).
 5. Sensors which will allow the trash can to guide itself. (Either Computer Vision or distance sensors)
