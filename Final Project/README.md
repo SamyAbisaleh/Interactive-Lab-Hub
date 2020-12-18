@@ -82,5 +82,31 @@ There are a few aspects of the circuit which are not pictured. These are:
 
 <img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Final.gif">
 
-Sadly the final result was dissapointing. I wasn't able to get the trashcan to operate properly for a long period of time as it constantly failed. The point of failure was the NPN transistor. 
+Sadly the final result was dissapointing. I wasn't able to get the trashcan to operate properly for a long period of time as it constantly failed. The point of failure was the NPN transistor, and overall there are many inefficiencies with the project itself. 
 
+### Future Work
+
+I plan to adjust all these problems in the future with multiple different implementations to help fix the issues I currently have. 
+
+#### Fix #1: Circuitry
+
+The first and most important fix that needs to be implemented into this is a better, more adaptable circuit. In otherwords, the circuit needs to not fry the transistor each time it is used. To do 
+
+This fix will be implemented in two main steps. 
+
+##### Step #1: Flyback Diode
+
+The largest issue that I had with implementing my trashcan was the NPN transistor constantly frying, After doing some research (thanks David), I believe that the reason for this is, in short, due to arcing. Basically, when the NPN transistor recieves current from the arduino the switch closes, and current can flow from High to Low. 
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Current Flow.png">
+
+Normally this would not be an issue, however, motors have inductive behavior. Meaning, when the switch is opened the current does not immediatley stop in the motor windings. This causes charge to build on the negative terminal of the motor. This can lead to one of two things. Either it will flow backwards through the power supply to ground or it will arc accross the switch. The solution to this is a Flyback diode. The flyback diode will dissipate the charge accross the motor without any damage to either the switch or the power supply. 
+
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Flyback Diode.png">
+
+
+
+
+#### Fix #2: Setup
+
+#### Fix #3: Additional Benefits
