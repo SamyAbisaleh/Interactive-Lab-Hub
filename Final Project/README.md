@@ -108,11 +108,11 @@ This fix will be implemented in two main steps.
 
 The largest issue that I had with implementing my trashcan was the NPN transistor constantly frying, After doing some research (thanks David), I believe that the reason for this is, in short, due to arcing. Basically, when the NPN transistor recieves current from the arduino the switch closes, and current can flow from High to Low. 
 
-<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Current Flow.png">
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Current%20Flow.PNG">
 
 Normally this would not be an issue, however, motors have inductive behavior. Meaning, when the switch is opened the current does not immediatley stop in the motor windings. This causes charge to build on the negative terminal of the motor. This can lead to one of two things. Either it will flow backwards through the power supply to ground or it will arc accross the switch. The solution to this is a Flyback diode. The flyback diode will dissipate the charge accross the motor without any damage to either the switch or the power supply. 
 
-<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Flyback Diode.png">
+<img src = "https://github.com/SamyAbisaleh/Interactive-Lab-Hub/blob/master/Final%20Project/Flyback%20Diode.PNG">
 
 ##### Step #2: Motors
 
